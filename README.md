@@ -1,13 +1,11 @@
-# README
-## This is the README for your extension "c64"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# VScode theme c64
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+## Screenshots
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+<img width="1032" alt="screen shot 2017-04-02 at 6 28 33 pm" src="https://cloud.githubusercontent.com/assets/3179564/24586771/4f0023b0-17d2-11e7-9c20-6536950086c0.png">
 
-**Enjoy!**
+<img width="1031" alt="screen shot 2017-04-02 at 6 25 15 pm" src="https://cloud.githubusercontent.com/assets/3179564/24586772/563b7e0e-17d2-11e7-9e58-6d46c4c6c2de.png">
+
+## License
+
+MIT
