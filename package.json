@@ -1,0 +1,22 @@
+{
+    "name": "c64",
+    "displayName": "c64",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "wwju",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "c64",
+                "uiTheme": "vs",
+                "path": "./themes/c64.tmTheme"
+            }
+        ]
+    }
+}
