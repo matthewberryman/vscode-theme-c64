@@ -1,21 +1,27 @@
 {
-    "name": "c64",
-    "displayName": "c64",
-    "description": "",
-    "version": "0.0.1",
+    "name": "vscode-theme-c64",
+    "displayName": "C64 Purple Soft",
+    "description": "Theme with soft purple background",
+    "version": "0.0.2",
     "publisher": "wwju",
     "engines": {
         "vscode": "^1.10.0"
     },
+    "icon": "icon.png",
+    "homepage": "https://github.com/wwju/vscode-theme-c64",
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wwju/vscode-theme-c64"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "c64",
-                "uiTheme": "vs",
-                "path": "./themes/c64.tmTheme"
+                "uiTheme": "vs-dark",
+                "path": "./themes/c64.json"
             }
         ]
     }

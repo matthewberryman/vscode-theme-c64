@@ -1,0 +1,305 @@
+{
+	"name": "C64 Purple Soft",
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#40318D",
+				"foreground": "#7869C4"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#6752C9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#CDABAD"
+			}
+		},
+		// {
+		// 	"name": "Number",
+		// 	"scope": "constant.numeric",
+		// 	"settings": {
+		// 		"foreground": "#f280d0"
+		// 	}
+		// },
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#F7F7F7"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#F7F7F7"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#AFA3EE"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#6A86B3"
+			}
+		},
+		// {
+		// 	"name": "Storage",
+		// 	"scope": "storage",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#225588"
+		// 	}
+		// },
+		// {
+		// 	"name": "Storage type",
+		// 	"scope": "storage.type",
+		// 	"settings": {
+		// 		"fontStyle": "italic",
+		// 		"foreground": "#9966b8"
+		// 	}
+		// },
+		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#9469B5"
+			}
+		},
+		// {
+		// 	"name": "Inherited class",
+		// 	"scope": "entity.other.inherited-class",
+		// 	"settings": {
+		// 		"fontStyle": "italic underline",
+		// 		"foreground": "#ddbb88"
+		// 	}
+		// },
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#67B6BD"
+			}
+		},
+		// {
+		// 	"name": "Function argument",
+		// 	"scope": "variable.parameter",
+		// 	"settings": {
+		// 		"fontStyle": "italic",
+		// 		"foreground": "#2277ff"
+		// 	}
+		// },
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#67B6BD"
+			}
+		},
+		// {
+		// 	"name": "Tag attribute",
+		// 	"scope": "entity.other.attribute-name",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#b48184"
+		// 	}
+		// },
+		// {
+		// 	"name": "Library function",
+		// 	"scope": "support.function",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#9966b8"
+		// 	}
+		// },
+		// {
+		// 	"name": "Library constant",
+		// 	"scope": "support.constant",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#9966b8"
+		// 	}
+		// },
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#67B6BD"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"foreground": "#67B6BD"
+			}
+		}
+		// {
+		// 	"name": "Invalid",
+		// 	"scope": "invalid",
+		// 	"settings": {
+		// 		"background": "#F92672",
+		// 		"fontStyle": "",
+		// 		"foreground": "#F8F8F0"
+		// 	}
+		// },
+		// {
+		// 	"name": "Invalid deprecated",
+		// 	"scope": "invalid.deprecated",
+		// 	"settings": {
+		// 		"background": "#AE81FF",
+		// 		"foreground": "#F8F8F0"
+		// 	}
+		// },
+		// {
+		// 	"name": "diff: header",
+		// 	"scope": [
+		// 		"meta.diff",
+		// 		"meta.diff.header"
+		// 	],
+		// 	"settings": {
+		// 		"background": "#b58900",
+		// 		"fontStyle": "italic",
+		// 		"foreground": "#E0EDDD"
+		// 	}
+		// },
+		// {
+		// 	"name": "diff: deleted",
+		// 	"scope": "markup.deleted",
+		// 	"settings": {
+		// 		"background": "#eee8d5",
+		// 		"fontStyle": "",
+		// 		"foreground": "#dc322f"
+		// 	}
+		// },
+		// {
+		// 	"name": "diff: changed",
+		// 	"scope": "markup.changed",
+		// 	"settings": {
+		// 		"background": "#eee8d5",
+		// 		"fontStyle": "",
+		// 		"foreground": "#cb4b16"
+		// 	}
+		// },
+		// {
+		// 	"name": "diff: inserted",
+		// 	"scope": "markup.inserted",
+		// 	"settings": {
+		// 		"background": "#eee8d5",
+		// 		"foreground": "#219186"
+		// 	}
+		// },
+		// {
+		// 	"name": "Markup Quote",
+		// 	"scope": "markup.quote",
+		// 	"settings": {
+		// 		"foreground": "#22aa44"
+		// 	}
+		// },
+		// {
+		// 	"name": "Markup Styling",
+		// 	"scope": [
+		// 		"markup.bold",
+		// 		"markup.italic"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#22aa44"
+		// 	}
+		// },
+		// {
+		// 	"name": "Markup Inline",
+		// 	"scope": "markup.inline.raw",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#9966b8"
+		// 	}
+		// },
+		// {
+		// 	"name": "Markup Setext Header",
+		// 	"scope": "markup.heading.setext",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#ddbb88"
+		// 	}
+		// }
+	],
+	"colors": {
+
+		// Base Colors
+		"inputBoxBackground": "#652a70",
+		// "dropdownBackground": "#ee0000",
+		"inputBoxActiveOptionBorder": "#67B6BD",
+
+		// Editor Colors
+		"editorBackground": "#40318D",
+		"editorForeground": "#7869C4",
+		// "editorCursor": "#ddbb88",
+		// "editorWhitespaces": "#103050",
+		"editorLineHighlight": "#30207C",
+		"editorSelection": "#382d83",
+		"editorIndentGuides": "#463793",
+		"editorHoverBackground": "#3b2c82",
+		"editorHoverBorder": "#30207C",
+		// "peekViewResultsBackground": "#060621",
+		// "peekViewResultsMatchForeground": "#7777cc",
+		// "peekViewResultsSelectionBackground": "#070866",
+		// "peekViewResultsSelectionForeground": "#7799ee",
+		// "peekViewEditorBackground": "#001F33",
+		// "peekViewTitleBackground": "#060621",
+		// "peekViewBorder": "#7777cc",
+		// "peekViewEditorMatchHighlight": "#ddbb5555",
+
+		"editorLineNumbers": "#67B6BD",
+		// "editorMarkerNavigationBackground": "#FF0000",
+		// "editorMarkerNavigationError": "#FF0000",
+		// "editorMarkerNavigationWarning": "#00FF00",
+
+		"editorFindWidgetBackground": "#40318D",
+
+		// Workbench Colors
+		// "tabsContainerBackground": "#1c1c2a",
+		// "inactiveTabBackground": "#10192c",
+		// "tabBorder": "#2b2b4a",
+		// "editorGroupBorder": "#2b2b4a",
+		// "editorGroupBackground": "#1c1c2a",
+		// "editorDragAndDropBackground": "#25375daa",
+		// "activityBarDragAndDropBackground": "#25375daa",
+		// "editorSideBySideBorder": "#10192c",
+		// "panelTopBorder": "#2b2b4a",
+		// "statusBarBackground": "#10192c",
+		// "statusBarNoFolderBackground": "#10192c",
+		// "statusBarDebuggingBackground": "#10192c",
+		// "debugToolBarBackground": "#051336",
+		"activityBarBackground": "#463793",
+		"activityBadgeBackground": "#7869c4",
+		"sideBarBackground": "#40357B",
+		"titleBarActiveBackground": "",
+		"titleBarInactiveBackground": ""
+	}
+}
