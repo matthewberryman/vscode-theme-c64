@@ -2,7 +2,7 @@
     "name": "vscode-theme-c64",
     "displayName": "C64 Purple Soft",
     "description": "Theme with soft purple background",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "wwju",
     "engines": {
         "vscode": "^1.10.0"

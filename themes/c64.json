@@ -252,20 +252,20 @@
 	"colors": {
 
 		// Base Colors
-		"inputBoxBackground": "#652a70",
+		"inputBox.background": "#652a70",
 		// "dropdownBackground": "#ee0000",
-		"inputBoxActiveOptionBorder": "#67B6BD",
+		"inputBox.activeOptionBorder": "#67B6BD",
 
 		// Editor Colors
-		"editorBackground": "#40318D",
-		"editorForeground": "#7869C4",
+		"editor.background": "#40318D",
+		"editor.foreground": "#7869C4",
 		// "editorCursor": "#ddbb88",
 		// "editorWhitespaces": "#103050",
-		"editorLineHighlight": "#30207C",
-		"editorSelection": "#382d83",
-		"editorIndentGuides": "#463793",
-		"editorHoverBackground": "#3b2c82",
-		"editorHoverBorder": "#30207C",
+		"editor.lineHighlight": "#30207C",
+		"editor.selection": "#382d83",
+		"editor.indentGuides": "#463793",
+		"editor.hoverBackground": "#3b2c82",
+		"editor.hoverBorder": "#30207C",
 		// "peekViewResultsBackground": "#060621",
 		// "peekViewResultsMatchForeground": "#7777cc",
 		// "peekViewResultsSelectionBackground": "#070866",
@@ -275,12 +275,12 @@
 		// "peekViewBorder": "#7777cc",
 		// "peekViewEditorMatchHighlight": "#ddbb5555",
 
-		"editorLineNumbers": "#67B6BD",
+		"editor.lineNumbers": "#67B6BD",
 		// "editorMarkerNavigationBackground": "#FF0000",
 		// "editorMarkerNavigationError": "#FF0000",
 		// "editorMarkerNavigationWarning": "#00FF00",
 
-		"editorFindWidgetBackground": "#40318D",
+		"editor.findWidgetBackground": "#40318D",
 
 		// Workbench Colors
 		// "tabsContainerBackground": "#1c1c2a",
@@ -296,10 +296,10 @@
 		// "statusBarNoFolderBackground": "#10192c",
 		// "statusBarDebuggingBackground": "#10192c",
 		// "debugToolBarBackground": "#051336",
-		"activityBarBackground": "#463793",
-		"activityBadgeBackground": "#7869c4",
-		"sideBarBackground": "#40357B",
-		"titleBarActiveBackground": "",
-		"titleBarInactiveBackground": ""
+		"activityBar.background": "#463793",
+		"activityBadge.background": "#7869c4",
+		"sideBar.background": "#40357B",
+		"titleBar.activeBackground": "",
+		"titleBar.inactiveBackground": ""
 	}
 }
