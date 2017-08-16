@@ -3,7 +3,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"background": "#40318D",
+				"background": "#30207C",
 				"foreground": "#7869C4"
 			}
 		},
@@ -250,22 +250,22 @@
 		// }
 	],
 	"colors": {
-
+		"focusBorder": "#D3AF86",
 		// Base Colors
-		"inputBox.background": "#652a70",
+		"input.background": "#652a70",
 		// "dropdownBackground": "#ee0000",
-		"inputBox.activeOptionBorder": "#67B6BD",
+		"inputOption.activeBorder": "#67B6BD",
 
 		// Editor Colors
 		"editor.background": "#40318D",
 		"editor.foreground": "#7869C4",
 		// "editorCursor": "#ddbb88",
 		// "editorWhitespaces": "#103050",
-		"editor.lineHighlight": "#30207C",
-		"editor.selection": "#382d83",
-		"editor.indentGuides": "#463793",
-		"editor.hoverBackground": "#3b2c82",
-		"editor.hoverBorder": "#30207C",
+		"editor.lineHighlightBackground": "#30207C",
+		"editor.selectionBackground": "#382d83",
+		"editorIndentGuide.background": "#463793",
+		"editor.hoverHighlightBackground": "#3b2c82",
+		"editorHoverWidget.border": "#fff",
 		// "peekViewResultsBackground": "#060621",
 		// "peekViewResultsMatchForeground": "#7777cc",
 		// "peekViewResultsSelectionBackground": "#070866",
@@ -275,7 +275,7 @@
 		// "peekViewBorder": "#7777cc",
 		// "peekViewEditorMatchHighlight": "#ddbb5555",
 
-		"editor.lineNumbers": "#67B6BD",
+		"editorLineNumber.foreground": "#67B6BD",
 		// "editorMarkerNavigationBackground": "#FF0000",
 		// "editorMarkerNavigationError": "#FF0000",
 		// "editorMarkerNavigationWarning": "#00FF00",
@@ -297,9 +297,10 @@
 		// "statusBarDebuggingBackground": "#10192c",
 		// "debugToolBarBackground": "#051336",
 		"activityBar.background": "#463793",
-		"activityBadge.background": "#7869c4",
+		"activityBarBadge.background": "#7869c4",
 		"sideBar.background": "#40357B",
 		"titleBar.activeBackground": "",
-		"titleBar.inactiveBackground": ""
+		"titleBar.inactiveBackground": "",
+		"statusBar.background": "#7869c4"
 	}
 }

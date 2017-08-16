@@ -8,6 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Change sidebar hover/active colors
 - Add custom statusbar colors
 
+# [0.0.4] - 2017-08-16
+- Fix most of broken colors
+
 # [0.0.3] - 2017-07-07
 - Fixed broken theme because of changed vscode themes api
 - Versions in package.json and changelog are the same now

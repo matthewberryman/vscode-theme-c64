@@ -2,7 +2,7 @@
     "name": "vscode-theme-c64",
     "displayName": "C64 Purple Soft",
     "description": "Theme with soft purple background",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "wwju",
     "engines": {
         "vscode": "^1.10.0"
@@ -21,7 +21,7 @@
             {
                 "label": "c64",
                 "uiTheme": "vs-dark",
-                "path": "./themes/c64.json"
+                "path": "./themes/c64-color-theme.json"
             }
         ]
     }
