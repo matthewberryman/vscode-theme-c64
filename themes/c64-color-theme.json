@@ -299,8 +299,8 @@
 		"activityBar.background": "#463793",
 		"activityBarBadge.background": "#7869c4",
 		"sideBar.background": "#40357B",
-		"titleBar.activeBackground": "",
-		"titleBar.inactiveBackground": "",
+		"titleBar.inactiveBackground": "#30207C",
+    "titleBar.activeBackground": "#7869C4",
 		"statusBar.background": "#7869c4"
 	}
 }
